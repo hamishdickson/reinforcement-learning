@@ -48,3 +48,6 @@ for episode in range(500):
     totals.append(episode_rewards)
 
 print(np.mean(totals), np.std(totals), np.min(totals), np.max(totals))
+
+# python3 gymming.py
+# 42.144 8.927668452625243 24.0 64.0
